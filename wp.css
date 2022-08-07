@@ -1,0 +1,127 @@
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Satisfy', cursive; */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+}
+form {
+  padding: 32px;
+  border: 1px solid rgb(204, 204, 204);
+  width: 60%;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+}
+
+form div {
+  margin: 24px;
+}
+header {
+  text-align: center;
+  padding: 48px 0;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 40px;
+}
+.container {
+  display: flex;
+}
+.container section {
+  width: 50%;
+}
+form input {
+  width: 100%;
+  padding: 12px;
+}
+form select {
+  width: 100%;
+  padding: 12px;
+}
+
+.commonDesign h1 {
+  font-size: 40px;
+}
+.commonDesign {
+  font-size: 20px;
+  color: azure;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  padding: 28px;
+  text-align: center;
+}
+.date {
+  font-size: 24px;
+  font-weight: bold;
+}
+.venue {
+  font-size: 24px;
+  font-weight: bold;
+}
+.contactdetails {
+  font-size: 24px;
+  font-weight: bold;
+}
+.bride {
+  font-size: 24px;
+  font-weight: bold;
+}
+.groom {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.design1 {
+  font-family: "Pacifico", cursive;
+  background: #12c2e9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.design2 {
+  font-family: "Satisfy", cursive;
+  background: #f953c6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b91d73,
+    #f953c6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b91d73,
+    #f953c6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.design3 {
+  font-family: "Satisfy", cursive;
+  background: #f9eb532e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #7db91d,
+    #f953c767
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1db95e,
+    #f9ca53
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}

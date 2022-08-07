@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equiv="x-UA-compatible " content="ie-edge" />
+    <link rel="stylesheet" href="fontawesome-free-5.6.3-web\css\all.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Pacifico&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <title>Wedding website</title>
+    <link rel="stylesheet" href="wp.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Wedding invitation generator</h1>
+      <p>Lorem ipsum dolor sit amet,</p>
+    </header>
+
+    <div class="container">
+      <section>
+        <form action="/">
+          <div>
+            <label>Name of the Groom</label>
+            <input
+              type="text"
+              class="groomName"
+              name="name"
+              onkeyup="changeGroomName(event,'groom')"
+            />
+          </div>
+          <div>
+            <label>Name of the Bride</label>
+            <input
+              type="text"
+              class="brideName"
+              name="Name"
+              onkeyup="changeGroomName(event,'bride')"
+            />
+          </div>
+          <div>
+            <label>Date</label>
+            <input
+              type="text"
+              class="weddingDate"
+              name="date"
+              onkeyup="changeGroomName(event,'date')"
+            />
+          </div>
+          <div>
+            <label>Venue</label>
+            <input
+              type="text"
+              class="weddingVenue"
+              name="venue"
+              onkeyup="changeGroomName(event,'venue')"
+            />
+          </div>
+          <div>
+            <label>Contacts</label>
+            <input
+              type="text"
+              class="contactDetails"
+              name="contactDetails"
+              onkeyup="changeGroomName(event,'contactdetails')"
+            />
+          </div>
+          <div>
+            <label>Select Invitation Design</label>
+            <select id="design" name="design" onchange="changeDesign(event)">
+              <option value="design1">Design1</option>
+              <option value="design2">Design2</option>
+              <option value="design3">Design3</option>
+            </select>
+          </div>
+        </form>
+      </section>
+      <section>
+        <div class="design1 commonDesign">
+          <h1>
+            <span class="bride">Bride</span> & <span class="groom">Groom</span>
+          </h1>
+          <h2>Cordially invite you on their special Union<h2>
+
+          <p class="date">--</p>
+
+          <p class="venue">--</p>
+          <p class="contactdetails">--</p>
+        </div>
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
